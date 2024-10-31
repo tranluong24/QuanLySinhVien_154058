@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3F51B5"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="BT W7 - Trần Đắc Lương 20215611"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="Quản lý sinh viên"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:textSize="15sp"
+        android:backgroundTint="#2196F3"
+        android:layout_gravity="center"
+        android:text="Đăng kí sinh viên"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnList"
+        android:backgroundTint="#2196F3"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:text="Danh sách sinh viên"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnBT1"
+        android:backgroundTint="#2196F3"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:text="Bài tập 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
